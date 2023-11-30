@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char Op;
+    float p,l,t, hasil;
+    cout<<("masukkan K atau L : ");
+    cin>> Op;
+    cout<<("masukkan nilai p: ");
+    cin>>p;
+    cout<<("masukkan nilai l: ");
+    cin>>l;
+    cout<<("masukkan nilai t: ");
+    cin>>t;
+    
+    if (Op =='K'){
+    hasil = p*l*t;
+    cout<< "Hasilnya adalah: " << hasil;
+    }
+    
+    else if (Op =='L'){
+    hasil = 4*p*l*t;
+    cout<<"Hasilnya adalah: "<< hasil;
+    }
+    
+    else {
+        cout<<"mohon maaf tidak tersedia";
+    }
+    return 0;
