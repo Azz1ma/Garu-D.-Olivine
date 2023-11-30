@@ -23,6 +23,6 @@ int main() {
     }
     
     else {
-        cout<<"mohon maaf tidak tersedia";
+        cout<<"mohon maaf data tidak tersedia";
     }
     return 0;
